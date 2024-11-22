@@ -1,0 +1,33 @@
+#mainDiv {
+    border: 1px solid black;
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    /* align-items: center; */
+}
+
+input {
+    padding: 5px;
+    font-weight: 400;
+    width: 20%;
+    margin: auto;
+    /* padding: 2px; */
+}
+
+h3 {
+    background-color: dimgrey;
+    border: 2px dashed black;
+    width: 50%;
+    margin: auto;
+}
+
+h2 {
+    background-color: rgb(182, 181, 181);
+    border: 2px dashed black;
+    width: 30%;
+    margin: auto;
+}
+
